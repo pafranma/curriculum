@@ -1,0 +1,244 @@
+<!DOCTYPE html> <!-- introducción de la web para indicar que es html -->
+<html lang="es" dir="ltr">
+<!-- lang = idioma dir= orden de lectura ltr, left to right -->
+
+<head>
+  <!-- cabecera de la web -->
+  <meta charset="utf-8"> <!-- Tipo de caracteres, normalmente no se modifica, son los caracteres que va a entender, por ejemplo este lenguaje admite emoticonos -->
+  <meta name="description" content="Curriculum Natalia Pérez"> <!-- descripcion que sale a la hora de buscar la web -->
+  <meta name="keywords" content="Curriculum, Profesora, Geografía, Historia, Secundaria"> <!-- Palabras clave -->
+  <meta name="author" content="Natalia Pérez">
+  <title> Curriculum </title> <!-- añadir titulo, es el titulo de la pestaña, no sale en el cuadro de contenido -->
+  <link rel="icon" type="image.icon" href="favicon.ico">
+</head>
+
+<body>
+  <!-- incorporar el cuerpo de la pagina-->
+
+  <!-- INTRODUCCION -->
+  <hr size="4" noshade />
+  <br>
+  <table>
+    <tr>
+      <td>
+        <!-- Imagen añadida de internet y ademas con cambio de tamaño -->
+        <img src="https://www.modelocurriculum.net/wp-content/ejemplos-de-buenas-fotografias-para-el-curriculum.jpg" alt="imagen Natalia" width="206" height="127">
+      </td>
+      <td>
+        <h1>Natalia Pérez</h1>
+        <p><em>Profesora de Geografía e Historia</em></p> <!-- p añade un parrafo, incorpora un enter-->
+      </td>
+    </tr>
+  </table>
+
+
+  <p>Mi experiencia profesional abarca prácticamente todas las asignaturas de <strong> Geografía e Historia </strong> de la <strong>ESO</strong> y el <strong>Bachillerato</strong>, además de haber ejercido funciones de tutoría durante los tres
+    últimos cursos académicos. Poseo un nivel alto de ingles y
+    amplios conocimientos en las TIC's aplicadas a la educación.
+  </p> <!-- el em, es para poner el texto en cursiva y strong es para poner negrita-->
+  <hr size="4" noshade />
+  <br>
+
+  <!-- INDICE -->
+  <center>
+    <h3>INDICE
+    </h3>
+    <hr size="2" noshade />
+    <!-- Referencias en la misma página, es decir enlace que me lleva a un texto/palabra dentro de la misma web -->
+    <!-- Ojo! Tiene que referenciarse luego en el texto con id="...", pero dentro de la etiqueta del parrafo/titulo o lo que sea -->
+    <a href="#contacto">Contacto</a>
+    <br>
+    <a href="#formacionacademica">Formación académica</a>
+    <br>
+    <a href="#experienciaprofesional">Experiencia profesional</a>
+    <br>
+    <a href="#habilidades">Habilidades</a>
+    <br>
+    <a href="#formulario">Formulario de contacto</a>
+  </center>
+  <br>
+  <br>
+  <!-- CONTACTO -->
+  <center>
+    <h3 id="contacto">CONTACTO
+      <!-- Id es para que al pinchar en el enlace creado para el indice, venga aqui -->
+    </h3>
+
+    <hr size="2" noshade />
+
+    <p>✉ natalia@gmail.com</p>
+    <p>📱 666 555 333</p>
+    <p>🏠 C/ Madrizal 21, 4, 2ºA</p>
+
+    <br>
+  </center>
+
+  <!-- FORMACION ACADEMICA -->
+
+  <h3 align=center id="formacionacademica">FORMACIÓN ACADÉMICA
+  </h3>
+
+
+  <hr size="2" noshade />
+  <ul>
+    <!-- Lista no numerada-->
+    <li>
+      <!-- li es para añadir cada elemento de una lista -->
+      <a href="https://www.uspceu.com/" target="_blank">
+        <!-- Añade un enlace a una palabra o palabras -->
+        <p><b>UNIVERSIDAD CEU SAN PABLO</b> <i>2009-2010.</i> <!-- b es negrita e i es cursiva -->
+      </a>
+      <br>
+      Máster de Profesorado de Ed. Secundaria. <br /> <i>Prácticas realizadas en el I.E.S. Salamanca- Nota final: 9,2.</i> </p>
+    </li>
+    <li>
+      <a href="https://www.usal.es/" target="_top">
+        <p><b>UNIVERSIDAD DE SALAMANCA</b> <i>2004-2009</i>
+      </a>
+
+      <br /> Licenciatura de Historia.
+      <br />Especialidad en Historia Contemporánea. Nota media: 8,4</p>
+      <br>
+    </li>
+  </ul>
+
+  <!-- EXPERIENCIA PROFESIONAL -->
+  <center>
+    <h3 id=experienciaprofesional>EXPERIENCIA PROFESIONAL DOCENTE</h3>
+    <hr size="2" noshade />
+    <br>
+
+    <table border="1" cellpadding="10" cellspacing="5" align=center>
+      <!-- Comienzo de tabla -->
+      <!-- Fila de cabecera -->
+      <thead bgcolor=#5eb7b7>
+        <th>
+          <font color="white">Periodo</font>
+        </th> <!-- Th es cada contenido de la celda cabecera -->
+        <th>
+          <font color="white">Puesto de trabajo</font>
+        </th>
+      </thead>
+      <!-- Aqui comienza el cuerpo de la tabla -->
+      <tbody bgcolor=#ffe7d1>
+        <tr>
+          <td>2011-Actualidad</td>
+          <td>COLEGIO SAGRADO CORAZÓN</td>
+        </tr>
+        <tr>
+          <td>2009-2010</td>
+          <td>COLEGIO VIRGEN DEL REMEDIO</td>
+        </tr>
+        <tr>
+          <td>2007-2008</td>
+          <td>ACADEMIA SALAMANCA</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <br>
+    <a href="experienciaprofesional.html">Clic aquí para ver</a>
+  </center>
+
+  <br>
+  <br>
+  <!-- HABILIDADES -->
+  <center>
+    <h3 id=habilidades>HABILIDADES</h3>
+    <hr size="2" noshade />
+  </center>
+
+  <center>
+    <a href="habilidades.html">Clic aquí para ver</a>
+  </center>
+  <br><br>
+
+
+  <!-- FORMULARIO DE CONTACTO -->
+  <center>
+    <h3 id=formulario>FORMULARIO DE CONTACTO</h3>
+    <hr size="2" noshade />
+  </center>
+
+  <form class="" action="index.html" method="post">
+    <label>Nombre:</label>
+    <br>
+    <input type="text" name="" value="">
+    <br><br>
+
+    <label for="">E-mail:</label>
+    <br>
+    <input type="email" name="" value="">
+    <br><br>
+
+    <label for="">Contraseña:</label>
+    <br>
+    <input type="password" name="" value="">
+    <br><br>
+
+    <label for="">¿En qué puedo ayudarte?</label>
+    <br>
+    <textarea name="name" rows="8" cols="90"></textarea>
+    <br><br>
+
+    <input type="checkbox" name="" value=""> <small>He leído y acepto la política de privacidad</small>
+    <br><br>
+
+    <input type="color" name="" value="">
+    <br><br>
+
+    <input type="file" name="" value="">
+    <br><br>
+
+    <input type="date" name="" value="">
+    <br><br>
+
+    <input type="radio" name="" value="">
+    <br><br>
+
+    <input type="range" name="" value="">
+    <br><br>
+
+<label for="">Disponibilidad</label>
+    <select  class="" name="" >
+      <option value=""> Mañana </option>
+      <option value=""> Tarde </option>
+    </select>
+
+
+
+    <input type="submit" name="" value="Enviar">
+    <br><br>
+
+    <input type="reset" name="" value="Limpiar formulario">
+    <br><br>
+
+    <hr width="100%" />
+    <hr width="95%" />
+  </form>
+  <br>
+  <br>
+
+  <!-- IMAGEN CESAR -->
+  <center>
+    <!-- A continuación añade un enlace al pinchar una imagen -->
+    <a href="https://es.wikipedia.org/wiki/C%C3%A9sar_Mill%C3%A1n" target="_blank">
+      <!-- Añadir Imagen de carpeta -->
+      <img src="imagenes/cesar.png" alt="Retrato cesar">
+    </a>
+  </center>
+  <br>
+
+
+
+
+
+
+
+
+
+
+  <br><br>
+</body>
+
+</html>
